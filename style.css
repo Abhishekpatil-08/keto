@@ -581,3 +581,89 @@ footer a {
     font-weight: bold;
 }
 
+
+
+
+
+@media (max-width: 800px) {
+
+    .navbar {
+        height: auto;
+
+        padding: 14px 0;
+    }
+
+    .nav-inner {
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+    .nav-links {
+        height: auto;
+
+        gap: 15px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .nav-links a {
+        height: 35px;
+
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: 620px;
+    }
+
+    .booking {
+        width: 90%;
+
+        margin: auto;
+
+        padding: 28px;
+    }
+
+    .booking h1 {
+        font-size: 25px;
+    }
+
+    .room-grid,
+    .gallery-grid,
+    .blog-grid,
+    .contact-wrap,
+    .footer-grid,
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+    
+
+    .gallery-grid img {
+        height: 220px;
+    }
+
+    .about-content {
+        padding: 35px 0;
+    }
+
+    .about-content img {
+        height: 300px;
+    }
+     .home-about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .home-about-content .about-text {
+        order: 1;
+    }
+
+    .home-about-content img {
+        order: 2;
+        height: 300px;
+    }
+
+}
